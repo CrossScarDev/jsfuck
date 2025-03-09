@@ -110,7 +110,7 @@
     '~':   null
   };
 
-  const GLOBAL = 'Function("return this")()';
+  const GLOBAL = 'Function("return self")()';
 
   function fillMissingDigits(){
     var output, number, i;
